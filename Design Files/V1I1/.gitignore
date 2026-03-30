@@ -1,0 +1,68 @@
+# ===== Altium Designer =====
+
+# History / backups
+History/
+*.History
+*.~*
+*.bak
+*.Backup
+*.Old
+*.Zip
+
+# Preview files
+__Previews/
+*.SchDocPreview
+
+# Generated outputs
+Project Outputs for *
+Project Logs for *
+*.log
+*.rep
+*.csv
+*.txt
+
+# CAM / fabrication temporary
+*.cam
+*.camtastic
+
+# Autosave / temp
+*.tmp
+*.temp
+*.~$*
+
+# Simulation / cache
+*.sim
+*.cache
+
+# Workspace / user-specific
+*.DsnWrk
+*.PrjScr
+*.OutJob
+*.PcbDocView
+*.SchDocView
+
+# Compiled / generated
+*.net
+*.xml
+*.html
+
+# 3D cache
+*.step.cache
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# ===== OPTIONAL (uncomment if needed) =====
+
+# Ignore outputs but keep release
+# Released Files/
+
+# Ignore firmware build artifacts
+# *.hex
+# *.bin
+# *.elf
