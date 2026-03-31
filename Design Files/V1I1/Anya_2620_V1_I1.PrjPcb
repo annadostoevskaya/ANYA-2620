@@ -134,13 +134,30 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMSIKNXB
 
-[Parameter1]
-Name=VersionRevision
-Value=V1I1
+[Document6]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DIJKKDSY
 
-[Parameter2]
+[Parameter1]
 Name=Project
 Value=Anya-2620
+
+[Parameter2]
+Name=VersionRevision
+Value=V1I1
 
 [Configuration1]
 Name=Sources
