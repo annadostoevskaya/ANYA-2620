@@ -1,4 +1,5 @@
-﻿Record=TopLevelDocument|FileName=ANYA_2620_PROJECT.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=ANYA_2620_PROJECT.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=COVER PAGE.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=COVER PAGE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=ANYA_2620_PROJECT.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=ANYA_2620_PROJECT.SchDoc|FileName=REVISION HISTORY.SchDoc|SheetNumber=4
+﻿Record=TopLevelDocument|FileName=ANYA_2620_V1_I1.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=ANYA_2620_V1_I1.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=LCD.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=LCD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ANYA_2620_V1_I1.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=COVER PAGE.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=COVER PAGE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ANYA_2620_V1_I1.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=ANYA_2620_V1_I1.SchDoc|FileName=REVISION HISTORY.SchDoc|SheetNumber=5
