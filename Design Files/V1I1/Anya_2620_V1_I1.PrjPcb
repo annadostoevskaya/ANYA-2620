@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TMSIKNXB
 
 [Document6]
-DocumentPath=MCU.SchDoc
+DocumentPath=MCU_SYS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -152,6 +152,23 @@ GenerateClassCluster=0
 DocumentUniqueId=DIJKKDSY
 
 [Document7]
+DocumentPath=MCU_IO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EMBKKKOM
+
+[Document8]
 DocumentPath=LCD_I2C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APBHLWTI
 
-[Document8]
+[Document9]
 DocumentPath=Anya_2620_V1_I1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCYFIXET
 
-[Document9]
+[Document10]
 DocumentPath=POWER_AND_IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ORTEUVEL
 
-[Document10]
+[Document11]
 DocumentPath=FRAM_AND_RTC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,6 +235,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIUILTZX
+
+[Document12]
+DocumentPath=..\Altium\Libraries\Passive.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HUWYZILN
 
 [Parameter1]
 Name=Project
@@ -1182,10 +1216,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Library.SchLib
+ComponentDesignItemID0=STM32H503RBT6
+ComponentSymbolReference0=STM32H503RBT6
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1199,6 +1239,49 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Category
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=Country of Origin
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=Export Control Classification Number (ECCN) Code
+ParameterUpdate7=1
+ParameterName8=Harmonized Tariff Schedule (HTS) Code
+ParameterUpdate8=1
+ParameterName9=Library Reference
+ParameterUpdate9=1
+ParameterName10=Lifecycle Status
+ParameterUpdate10=1
+ParameterName11=Manufacturer
+ParameterUpdate11=1
+ParameterName12=Manufacturer Part Number
+ParameterUpdate12=1
+ParameterName13=Pricing
+ParameterUpdate13=1
+ParameterName14=REACH SVHC
+ParameterUpdate14=1
+ParameterName15=RoHS
+ParameterUpdate15=1
+ParameterName16=Stock
+ParameterUpdate16=1
+ParameterName17=Supplier
+ParameterUpdate17=1
+ParameterName18=Supplier Part Number
+ParameterUpdate18=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=QFP64P50_1200X1200X160L60X22N
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
