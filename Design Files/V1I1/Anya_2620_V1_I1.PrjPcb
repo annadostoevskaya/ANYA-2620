@@ -253,6 +253,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HUWYZILN
 
+[Document13]
+DocumentPath=..\Altium\Libraries\Passive.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VNVJBAAK
+
 [Parameter1]
 Name=Project
 Value=Anya-2620
