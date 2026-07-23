@@ -56,7 +56,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SMTIQLQT
 
 [Document2]
-DocumentPath=ANYA_2620_V1_I1.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IHSHQJZJ
-
-[Document3]
 DocumentPath=..\Altium\Libraries\Library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KVFPBNBW
 
-[Document4]
+[Document3]
 DocumentPath=..\Altium\Libraries\Library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YKBSMPPV
 
-[Document5]
+[Document4]
 DocumentPath=COVER PAGE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,75 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QUMOCTTU
 
-[Document6]
-DocumentPath=REVISION HISTORY.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TMSIKNXB
-
-[Document7]
-DocumentPath=MCU_SYS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DIJKKDSY
-
-[Document8]
-DocumentPath=MCU_IO.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EMBKKKOM
-
-[Document9]
-DocumentPath=LCD_I2C.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=APBHLWTI
-
-[Document10]
+[Document5]
 DocumentPath=Anya_2620_V1_I1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCYFIXET
 
-[Document11]
+[Document6]
 DocumentPath=POWER_AND_IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,14 +151,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ORTEUVEL
 
-[Document12]
+[Document7]
 DocumentPath=FRAM_AND_RTC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -253,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PIUILTZX
 
-[Document13]
+[Document8]
 DocumentPath=..\Altium\Libraries\Passive.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HUWYZILN
 
-[Document14]
+[Document9]
 DocumentPath=..\Altium\Libraries\Passive.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,23 +201,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VNVJBAAK
-
-[Document15]
-DocumentPath=PCB1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GMQPLVXL
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Anya_2620_V1_I1\odb\steps\pcb\eda\data
