@@ -14189,7 +14189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15702,7 +15702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 233.68 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -17242,7 +17242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 228.6 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20462,6 +20462,7 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 39.624 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24963,7 +24964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
 			(at 119.38 129.286 90)
 			(hide yes)
 			(show_name no)
