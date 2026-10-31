@@ -13720,6 +13720,16 @@
 		)
 		(uuid "92a4468e-f49d-46f3-8429-a6d1d7253e47")
 	)
+	(label "BOOT1"
+		(at 259.08 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9687ae9f-8778-4a68-bbd0-9c06d1d232a3")
+	)
 	(label "I2C2_SCL"
 		(at 346.71 229.87 180)
 		(effects
@@ -13809,6 +13819,16 @@
 			(justify left bottom)
 		)
 		(uuid "d099e88f-cd68-4263-8b7b-aeecc5ee4adb")
+	)
+	(label "SW_BOOT1"
+		(at 243.84 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d19e2850-99ff-42c4-be1c-3e784d81fbcb")
 	)
 	(label "E_USB_D-"
 		(at 364.49 82.55 0)
