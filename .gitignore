@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# KiCad local UI state and temporary locks
+*.kicad_prl
+~*.lck
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Generated STM32 build output
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/build/

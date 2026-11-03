@@ -1,38 +1,71 @@
-# ANYA-2620
+ANYA-2620 / A2027
 
-Author: Kanat M. M. and Anna D. A.
+Авторы: Kanat M. M. и Anna D. A.
+Текущая версия платы: V2I1. Среда разработки: KiCad.
 
-Description:
+С чего начать
 
----
+Открыть проект: hardware/v2i1/A2027.kicad_pro
+Открыть схему:  hardware/v2i1/A2027.kicad_sch
+Открыть плату:  hardware/v2i1/A2027.kicad_pcb
+Посмотреть BOM: manufacturing/v2i1/bom/Bill_Of_Materials.csv
+Посмотреть CPL: manufacturing/v2i1/cpl/Component_Placement_List.csv
 
-Repo structure:
+Артикулы производителей, поставщики, ссылки на товары и Datasheet
+хранятся в полях компонентов схемы. Для выгрузки BOM в редакторе схемы:
+Tools → Generate Bill of Materials… → preset Purchasing BOM →
+format Purchasing CSV → Export. Путь вывода уже настроен.
+Preset Purchasing BOM - fitted only исключает DNP (C1,C6,C18).
+Редактировать закупочные данные через Tools → Edit Symbol Fields…
 
-  Design Files - Main directory containing all design-related data such as schematics, PCB layouts, libraries, and project documentation.
-  | Altium - Contains Altium Designer-specific files such as libraries, templates, and component models.
-  | | Libraries - Stores schematic symbols and PCB footprints used in the project.
-  | | | Models - Contains component models used in libraries.
-  | | | | 3D - Stores 3D models for PCB visualization.
-  | | Templates - Contains template files for Altium.
-  | Documentation - Stores design documentation such as block diagrams and system descriptions.
-  | V1I1 - Main working version 1 issue 1 of the project including schematics, PCB files, and firmware.
-  | | Firmware - Contains firmware source code or related files.
+Структура
 
-  Development Files - Contains reference materials used during development, including datasheets, design guides, and software resources.
-  | Competition and Similar Products - Information about competing or similar products.
-  | Datasheets - Datasheets of components used in the project.
-  | Design Guides - Application notes and hardware design guidelines.
-  | Development Boards - Information about development boards used for prototyping.
-  | Errata - Known issues, corrections, or design limitations.
-  | Software - Software tools or utilities used during development.
+hardware/
+  v2i1/               Текущие исходники KiCad: проект, схема и плата.
+    libs/              Локальная библиотека символов.
+    3dmodels/          Локальные 3D-модели.
+    .history/          Сохранённая история KiCad; отдельный вложенный Git-репозиторий.
 
-  Released Files - Contains finalized and production-ready outputs such as manufacturing files, assembly data, and released documentation.
-  | V1I1 - Final release version of the project.
-  | | 3D - 3D models of the PCB assembly.
-  | | Board Assembly - Assembly documentation and instructions.
-  | | Firmware - Final firmware ready for deployment.
-  | | PCB Manufacturing - Manufacturing files for PCB production.
-  | | | Gerber Output - PCB layer files used for fabrication.
-  | | | NC Drill Output - Drill files for PCB hole fabrication.
-  | | Schematic - Final schematic documentation.
-  | | Source Files - Source design files included in the release.
+firmware/
+  Firmware.ioc         Конфигурация STM32CubeMX. Исходников прошивки пока нет.
+
+manufacturing/
+  v2i1/
+    gerbers/           Gerber, сверловка и A2027-job.gbrjob в одной папке.
+    bom/               Экспортированный BOM текущей платы.
+    cpl/               Позиции 81 устанавливаемого компонента; X/Y в mm,
+                       верхняя сторона top, поворот в градусах 0–360.
+                       Координаты KiCad без сдвига начала; DNP, отверстия
+                       и паяная перемычка исключены. Включены 5 THT-разъёмов.
+
+docs/
+  design/              Блок-схема Excalidraw и расчёты Mathcad.
+  references/          Справочные материалы и схемы отладочных плат.
+  reviews/             Отчёты ревью платы.
+
+archive/
+  v1i1/source/         Предыдущая версия платы в Altium.
+  v1i1/release-template/ Старый шаблон выпуска V1I1 с инструкциями.
+  altium/              Старые библиотеки, 3D-модели и правила Altium.
+  footprint-expert-2025/ Исходные материалы Footprint Expert.
+  project-template/    Исходный README и прежние шаблонные инструкции.
+  local-state/         Сохранённые служебные файлы Finder из старых каталогов.
+
+Как поддерживать порядок
+
+Редактировать текущую электронику в hardware/v2i1/.
+Файлы *.kicad_pro, *.kicad_sch и *.kicad_pcb оставлять с одним именем A2027.
+При изменении версии создавать новые каталоги с номером версии.
+Экспортировать Gerber в manufacturing/v2i1/gerbers/, BOM — в manufacturing/v2i1/bom/.
+Настройки вывода KiCad обновлены на эти пути. Локальные библиотеки и модели
+используют ${KIPRJMOD} и перемещены вместе с проектом.
+
+Gerber — существовавший экспорт от 2026-11-03; при реорганизации
+они не пересоздавались. BOM и CPL сгенерированы из текущих исходников.
+Перед отправкой в производство
+проверять их соответствие текущим исходникам и фиксировать утверждённый выпуск.
+Рабочие изменения сохранять в Git основного проекта. Вложенная .history
+сохранена как была и не заменяет историю основного репозитория.
+
+Реорганизация каталогов: 2026-11-03. Содержимое прежних файлов сохранено,
+кроме настроек путей экспорта KiCad и ссылок на библиотеки старого Altium.
